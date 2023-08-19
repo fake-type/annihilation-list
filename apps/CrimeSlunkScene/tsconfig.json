@@ -1,0 +1,10 @@
+{
+  "extends": "@annihilation-list/tsconfig/bundle.json",
+  "compilerOptions": {
+    "plugins": [
+      {
+        "name": "@astrojs/ts-plugin"
+      }
+    ]
+  }
+}

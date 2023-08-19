@@ -1,0 +1,7 @@
+{
+	"name": "@annihilation-list/neco-arc",
+	"files": ["./NecoArc.webp"],
+	"publishConfig": {
+		"access": "public"
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"private": true,
+	"packageManager": "pnpm@8.6.12",
+	"scripts": {
+		"dev": "turbo dev",
+		"lint": "rome check --apply ."
+	},
+	"devDependencies": {
+		"lefthook": "^1.4.9",
+		"rome": "12.1.3",
+		"turbo": "^1.10.12"
+	}
+}

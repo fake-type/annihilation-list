@@ -1,0 +1,19 @@
+{
+	"name": "@annihilation-list/crime-slunk-scene",
+	"type": "module",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "astro dev",
+		"start": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview"
+	},
+	"devDependencies": {
+		"@annihilation-list/neco-arc": "workspace:^",
+		"@annihilation-list/tsconfig": "workspace:^",
+		"@astrojs/ts-plugin": "^1.1.1"
+	},
+	"dependencies": {
+		"astro": "^2.10.11"
+	}
+}
