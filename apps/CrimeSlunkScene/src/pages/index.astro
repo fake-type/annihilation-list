@@ -1,31 +1,8 @@
 ---
-import necoArc from "@annihilation-list/neco-arc/NecoArc.webp"
+import NecoArc from '~/components/NecoArc.astro'
+import BaseLayout from '~/layouts/BaseLayout.astro'
 ---
 
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} />
-    <title>blog</title>
-
-    <style>
-      body {
-        margin: 0;
-        padding: 0;
-      }
-      figure {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 100vh;
-      }
-    </style>
-  </head>
-  <body>
-    <figure>
-      <img src={necoArc} alt="Neco Arc" height="600px" />
-    </figure>
-  </body>
-</html>
+<BaseLayout>
+  <NecoArc />
+</BaseLayout>
