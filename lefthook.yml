@@ -5,12 +5,15 @@ pre-push:
       run: pnpm audit
 
 pre-commit:
-  parallel: true
   commands:
+    format:
+      glob: "*.{astro}"
+      run: pnpm format
+
     roma-tools:
       tags: static tests and formatting
       glob: "*.{ts,tsx,json}"
       run: pnpm lint
 
-    format:
-      run: pnpm format
+    git-add:
+      run: git add .

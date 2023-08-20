@@ -8,6 +8,8 @@
 			"cache": false,
 			"persistent": true
 		},
-		"format": {}
+		"format": {
+			"cache": false
+		}
 	}
 }
