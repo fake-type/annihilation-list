@@ -1,3 +1,30 @@
+@font-face {
+  font-family: 'MartianMono';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 200;
+  font-stretch: 100%;
+  src: url('/fonts/MartianMonoCondensed-ExtraLight.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'MartianMono';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url('/fonts/MartianMono-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'MartianMono';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  font-stretch: 100%;
+  src: url('/fonts/MartianMono-Bold.woff2') format('woff2');
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -7,5 +34,6 @@
 }
 
 body {
+  font-family: 'MartianMono', system-ui;
   background-color: #fff;
 }
