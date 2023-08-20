@@ -3,6 +3,7 @@
 	"packageManager": "pnpm@8.6.12",
 	"scripts": {
 		"dev": "turbo dev",
+		"format": "turbo format",
 		"lint": "rome check --apply ."
 	},
 	"devDependencies": {
