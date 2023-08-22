@@ -16,4 +16,4 @@ pre-commit:
       run: pnpm lint
 
     git-add:
-      run: git add .
+      run: git add {staged_files}
