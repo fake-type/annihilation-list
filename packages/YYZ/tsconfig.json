@@ -1,0 +1,3 @@
+{
+  "extends": "@annihilation-list/tsconfig/base"
+}
