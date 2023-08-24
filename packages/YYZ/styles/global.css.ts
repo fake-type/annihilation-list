@@ -13,7 +13,7 @@ globalFontFace(FontFaces.MartianMono, {
 
 	src: [
 		'local(Martian Mono)',
-		'url(/fonts/MartianMonoCondensed-ExtraLight.woff2) format(woff2)',
+		'url(../fonts/MartianMonoCondensed-ExtraLight.woff2) format(woff2)',
 	],
 })
 
@@ -23,7 +23,7 @@ globalFontFace(FontFaces.MartianMono, {
 	fontDisplay: 'swap',
 	fontStretch: 'normal',
 
-	src: ['local(Martian Mono)', 'url(/fonts/MartianMono-Regular.woff2) format(woff2)'],
+	src: ['local(Martian Mono)', 'url(../fonts/MartianMono-Regular.woff2) format(woff2)'],
 })
 
 globalFontFace(FontFaces.MartianMono, {
@@ -32,7 +32,7 @@ globalFontFace(FontFaces.MartianMono, {
 	fontDisplay: 'swap',
 	fontStretch: 'condensed',
 
-	src: ['local(Martian Mono)', 'url(/fonts/MartianMono-Bold.woff2) format(woff2)'],
+	src: ['local(Martian Mono)', 'url(../fonts/MartianMono-Bold.woff2) format(woff2)'],
 })
 
 globalStyle('body', {
