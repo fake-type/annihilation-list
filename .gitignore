@@ -33,6 +33,7 @@ build
 dist
 .temp
 .cache
+.astro
 
 # Serverless directories
 .serverless/
