@@ -1,6 +1,6 @@
 {
 	"name": "@annihilation-list/tsconfig",
-	"files": ["tsconfig.bundle.json"],
+	"private": true,
 	"publishConfig": {
 		"access": "public"
 	}
