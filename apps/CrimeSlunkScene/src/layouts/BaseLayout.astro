@@ -1,5 +1,6 @@
 ---
-import '@annihilation-list/yyz/styles/global.css'
+import '@annihilation-list/yyz/styles/global.css.ts'
+import { markdownCSS } from '@annihilation-list/yyz/styles/markdown.css.ts'
 ---
 
 <html lang="en">
@@ -11,6 +12,8 @@ import '@annihilation-list/yyz/styles/global.css'
     <title>Crime Slunk Scene</title>
   </head>
   <body>
-    <slot />
+    <article class={markdownCSS}>
+      <slot />
+    </article>
   </body>
 </html>

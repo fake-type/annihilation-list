@@ -37,5 +37,6 @@ globalFontFace(FontFaces.MartianMono, {
 
 globalStyle('body', {
 	fontFamily: Object.values(FontFaces),
-	background: '#1b1b1b',
+	background: '#060506',
+	color: '#564791',
 })
