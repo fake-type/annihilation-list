@@ -13,7 +13,7 @@ pre-commit:
     roma-tools:
       tags: static tests and formatting
       glob: "*.{ts,tsx,json}"
-      run: pnpm lint
+      run: pnpm rome check --apply-unsafe {staged_files}
 
     git-add:
       run: git add {staged_files}
