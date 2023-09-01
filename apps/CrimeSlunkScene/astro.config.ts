@@ -7,9 +7,6 @@ export default defineConfig({
 	markdown: {
 		syntaxHighlight: 'shiki',
 	},
-	experimental: {
-		assets: true,
-	},
 	integrations: [mdx()],
 	vite: { plugins: [vanillaExtractPlugin()] },
 })
