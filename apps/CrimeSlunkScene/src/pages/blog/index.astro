@@ -1,0 +1,16 @@
+---
+import { getCollection } from 'astro:content'
+import MainLayout from '~/layouts/MainLayout.astro'
+
+const blogCollections = await getCollection('blog')
+
+blogCollections.flatMap(entry => console.log(entry))
+---
+
+<MainLayout>
+  {
+    blogCollections.map(entry => (
+      <a href={`/blog/${entry.slug}`}>{JSON.stringify(entry.data, null)}</a>
+    ))
+  }
+</MainLayout>

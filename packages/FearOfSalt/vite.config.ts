@@ -1,3 +1,4 @@
+import { vanillaExtractPlugin } from '@vanilla-extract/vite-plugin'
 import reactPlugin from '@vitejs/plugin-react-swc'
 import { resolve } from 'node:path'
 import { defineConfig } from 'vite'
@@ -9,5 +10,5 @@ export default defineConfig({
 		target: 'exnext',
 		outDir: resolve(__dirname, 'dist'),
 	},
-	plugins: [reactPlugin()],
+	plugins: [reactPlugin(), vanillaExtractPlugin()],
 })

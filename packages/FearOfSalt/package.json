@@ -6,6 +6,7 @@
   },
   "devDependencies": {
     "@annihilation-list/tsconfig": "workspace:^",
+    "@annihilation-list/yyz": "workspace:^",
     "@storybook/addon-essentials": "^7.3.2",
     "@storybook/addon-interactions": "^7.3.2",
     "@storybook/addon-links": "^7.3.2",
@@ -16,6 +17,8 @@
     "@storybook/testing-library": "^0.2.0",
     "@types/react": "^18.2.21",
     "@types/react-dom": "^18.2.7",
+    "@vanilla-extract/css": "^1.13.0",
+    "@vanilla-extract/vite-plugin": "^3.9.0",
     "@vitejs/plugin-react-swc": "^3.3.2",
     "prop-types": "^15.8.1",
     "storybook": "^7.3.2",

@@ -40,3 +40,9 @@ globalStyle('body', {
 	background: '#060506',
 	color: '#564791',
 })
+
+globalStyle('*', {
+	margin: 0,
+	padding: 0,
+	boxSizing: 'border-box',
+})

@@ -2,6 +2,7 @@
 	"name": "@annihilation-list/yyz",
 	"description": "Why-Why-Zed",
 	"files": ["styles/global.css.ts"],
+	"main": "mod.ts",
 
 	"publishConfig": {
 		"access": "public"

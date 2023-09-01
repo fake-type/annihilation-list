@@ -1,11 +1,5 @@
 ---
-import { getEntry } from 'astro:content'
-import BaseLayout from '~/layouts/BaseLayout.astro'
-
-const necoArc = await getEntry('arc', 'neco-arc')
-const { Content } = await necoArc.render()
+import MainLayout from '~/layouts/MainLayout.astro'
 ---
 
-<BaseLayout>
-  <Content />
-</BaseLayout>
+<MainLayout />
