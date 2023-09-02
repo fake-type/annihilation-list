@@ -2,14 +2,14 @@
   "extends": "@annihilation-list/tsconfig/bundle.json",
   "compilerOptions": {
     "baseUrl": ".",
-    "paths": {
-      "~/components/*": ["src/components/*"],
-      "~/layouts/*": ["src/layouts/*"]
-    },
     "plugins": [
       {
         "name": "@astrojs/ts-plugin"
       }
-    ]
+    ],
+
+    "paths": {
+      "@features/*":["src/features/*"]
+    }
   }
 }

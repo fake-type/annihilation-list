@@ -1,4 +1,4 @@
-import { fontFace } from '@vanilla-extract/css'
+import { fontFace, style } from '@vanilla-extract/css'
 
 export const martianMono = fontFace([
 	{
@@ -30,3 +30,7 @@ export const martianMono = fontFace([
 		src: ['local(Martian Mono)', 'url(../fonts/MartianMono-Bold.woff2) format(woff2)'],
 	},
 ])
+
+export const bodyStyle = style({
+	fontFamily: ['system-ui', martianMono],
+})

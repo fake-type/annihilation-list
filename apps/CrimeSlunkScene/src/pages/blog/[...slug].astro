@@ -1,8 +1,8 @@
 ---
 import type { GetStaticPaths } from 'astro'
 import { getCollection } from 'astro:content'
-import { contentStyle } from '@annihilation-list/yyz/styles/blog/content.css.ts'
-import MainLayout from '~/layouts/MainLayout.astro'
+import { contentStyle } from '@annihilation-list/yyz/blog/content.css.ts'
+import RootLayout from '@features/root/RootLayout.astro'
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const blogEntries = await getCollection('blog')
@@ -17,8 +17,9 @@ const { entry } = Astro.props
 const { Content } = await entry.render()
 ---
 
-<MainLayout>
+<RootLayout>
   <div class={contentStyle}>
     <Content />
   </div>
-</MainLayout>
+</RootLayout>
+@annihilation-list/yyz/blog/content.css

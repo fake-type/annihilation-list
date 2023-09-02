@@ -1,0 +1,11 @@
+---
+import { bodyStyle } from './styles.css.ts'
+import Head from './components/Head.astro'
+---
+
+<html lang="en">
+  <Head title="Crime Slunk Scene" description="" />
+  <body class={bodyStyle}>
+    <div class=""><slot /></div>
+  </body>
+</html>
