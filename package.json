@@ -2,7 +2,9 @@
 	"private": true,
 	"packageManager": "pnpm@8.7.0",
 	"scripts": {
+		"build": "turbo build",
 		"dev": "turbo dev",
+		"storybook": "turbo storybook",
 		"format": "turbo format",
 		"lint": "rome check --apply-unsafe ."
 	},

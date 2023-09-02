@@ -1,3 +1,4 @@
+import '@annihilation-list/yyz/global.css.ts'
 import { fontFace, style } from '@vanilla-extract/css'
 
 export const martianMono = fontFace([

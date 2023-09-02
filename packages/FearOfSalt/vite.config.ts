@@ -6,9 +6,5 @@ import { defineConfig } from 'vite'
 export default defineConfig({
 	root: 'src',
 	publicDir: resolve(__dirname, 'public'),
-	build: {
-		target: 'exnext',
-		outDir: resolve(__dirname, 'dist'),
-	},
 	plugins: [reactPlugin(), vanillaExtractPlugin()],
 })

@@ -1,4 +1,5 @@
 import mdx from '@astrojs/mdx'
+import react from '@astrojs/react'
 import { vanillaExtractPlugin } from '@vanilla-extract/vite-plugin'
 import { defineConfig } from 'astro/config'
 
@@ -7,6 +8,6 @@ export default defineConfig({
 	markdown: {
 		syntaxHighlight: 'shiki',
 	},
-	integrations: [mdx()],
+	integrations: [mdx(), react()],
 	vite: { plugins: [vanillaExtractPlugin()] },
 })
