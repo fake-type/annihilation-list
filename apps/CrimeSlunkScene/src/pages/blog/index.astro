@@ -4,7 +4,6 @@ import RootLayout from '@features/root/RootLayout.astro'
 
 const blogCollections = await getCollection('blog')
 
-blogCollections.flatMap(entry => console.log(entry))
 ---
 
 <RootLayout>
