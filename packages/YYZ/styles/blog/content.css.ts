@@ -1,4 +1,4 @@
-import { createContainer, style, globalStyle } from '@vanilla-extract/css'
+import { createContainer, globalStyle, style } from '@vanilla-extract/css'
 
 const container = createContainer()
 
